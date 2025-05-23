@@ -50,7 +50,9 @@ Embora o projeto não implemente todas as funcionalidades dinâmicas de um e-com
 
 ```bash
 npm install
-npm run dev
+npm run dev 
+
+```
 
 
 🌐 Link publicado

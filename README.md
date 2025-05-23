@@ -1,6 +1,5 @@
 # 🛍️ Digital Store
 
-![Preview da Digital Store](./public/img/preview.png)
 
 ## 🚀 Projeto React + Vite
 
@@ -14,9 +13,9 @@ Embora o projeto não implemente todas as funcionalidades dinâmicas de um e-com
 
 - ✅ Layout responsivo com **React** e **Tailwind CSS**
 - ✅ Campo de busca com redirecionamento por URL  
-  ↪ Usuário pode digitar e pressionar Enter ou clicar no ícone para pesquisar
+     Usuário pode digitar e pressionar Enter ou clicar no ícone para pesquisar
 - ✅ Navegação entre páginas usando **React Router**
-  ↪ Com destaque visual na página ativa
+      Com destaque visual na página ativa
 - ✅ Menu lateral para dispositivos móveis (Mobile Menu)
 - ✅ Ícones interativos com **Phosphor Icons**
 - ✅ Estrutura de carrinho com contador visual
@@ -59,3 +58,4 @@ npm run dev
 Você pode acessar a versão online do projeto clicando abaixo:
 
 👉 Acesse a Digital Store aqui:
+https://projeto-digital-store-pearl.vercel.app/

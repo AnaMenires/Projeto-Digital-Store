@@ -5,7 +5,7 @@ import {
 } from "@phosphor-icons/react";
 import React, { useState } from "react";
 import MobileMenu from "./MobileMenu";
-import { NavLink, useNavigate } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -61,15 +61,19 @@ const Header = () => {
             />
           </div>
 
-          <button className="text-gray-700 underline underline-offset-2 hover:text-[#c92071] transition-all cursor-pointer text-xs ml-3">
-            Cadastre-se
-          </button>
+          <Link to="/cadastro">
+            <button className="text-gray-700 underline underline-offset-2 hover:text-[#c92071] transition-all cursor-pointer text-xs ml-3">
+              Cadastre-se
+            </button>
+          </Link>
         </div>
 
         <div className="flex items-center gap-4">
-          <button className="hidden md:block bg-[#c92071] text-white px-4 py-1 rounded text-sm cursor-pointer">
-            Entrar
-          </button>
+          <Link to="/login">
+            <button className="hidden md:block bg-[#c92071] text-white px-4 py-1 rounded text-sm cursor-pointer">
+              Entrar
+            </button>
+          </Link>
 
           <MagnifyingGlassIcon
             size={17}
@@ -96,8 +100,7 @@ const Header = () => {
                 isActive
                   ? "text-[#c92071] font-semibold border-b-2 border-[#c92071] transition-all duration-300 cursor-pointer"
                   : "text-black font-medium hover:text-[#c92071] hover:font-semibold hover:border-b-2 hover:border-[#c92071] transition-all duration-300 cursor-pointer"
-              }
-            >
+              }>
               Home
             </NavLink>
           </li>
@@ -108,8 +111,7 @@ const Header = () => {
                 isActive
                   ? "text-[#c92071] font-semibold border-b-2 border-[#c92071] transition-all duration-300 cursor-pointer"
                   : "text-black font-medium hover:text-[#c92071] hover:font-semibold hover:border-b-2 hover:border-[#c92071] transition-all duration-300 cursor-pointer"
-              }
-            >
+              }>
               Produtos
             </NavLink>
           </li>
@@ -120,8 +122,7 @@ const Header = () => {
                 isActive
                   ? "text-[#c92071] font-semibold border-b-2 border-[#c92071] transition-all duration-300 cursor-pointer"
                   : "text-black font-medium hover:text-[#c92071] hover:font-semibold hover:border-b-2 hover:border-[#c92071] transition-all duration-300 cursor-pointer"
-              }
-            >
+              }>
               Categorias
             </NavLink>
           </li>
@@ -132,8 +133,7 @@ const Header = () => {
                 isActive
                   ? "text-[#c92071] font-semibold border-b-2 border-[#c92071] transition-all duration-300 cursor-pointer"
                   : "text-black font-medium hover:text-[#c92071] hover:font-semibold hover:border-b-2 hover:border-[#c92071] transition-all duration-300 cursor-pointer"
-              }
-            >
+              }>
               Meus Pedidos
             </NavLink>
           </li>

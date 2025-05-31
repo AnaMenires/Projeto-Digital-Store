@@ -15,7 +15,8 @@ Embora o projeto não implemente todas as funcionalidades dinâmicas de um e-com
 - ✅ Campo de busca com redirecionamento por URL  
      Usuário pode digitar e pressionar Enter ou clicar no ícone para pesquisar
 - ✅ Navegação entre páginas usando **React Router**
-    Com destaque visual na página ativa    
+ Com destaque visual na página ativa
+      
 - ✅ Menu lateral para dispositivos móveis (Mobile Menu)
 - ✅ Ícones interativos com **Phosphor Icons**
 - ✅ Estrutura de carrinho com contador visual

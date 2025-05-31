@@ -7,6 +7,7 @@ const Login = () => {
   return (
     <div>
       <div>
+        <Link to="/">
         <div className="flex p-5 gap-1 items-center ml-5">
           <img
             src="/logo_digital_college.png"
@@ -17,6 +18,7 @@ const Login = () => {
             Digital Store{" "}
           </h2>
         </div>
+        </Link>
 
         <div className="bg-gradient-to-b from-[#babbf4] via-[#d6ceff] to-white flex flex-col md:flex-row justify-center items-center p-10 gap-5">
           <div className="bg-white w-[90%] md:w-[400px] flex flex-col h-full p-5 gap-1">
